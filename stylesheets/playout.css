@@ -1,0 +1,14 @@
+.circle {
+  margin: 20px 0;
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.circle.active {
+  background-color: lightblue;
+  border-radius: 0;
+}
